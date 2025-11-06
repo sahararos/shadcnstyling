@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router"
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename = "shadcnstyling">
       <Routes> 
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />

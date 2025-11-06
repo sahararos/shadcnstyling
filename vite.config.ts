@@ -6,11 +6,11 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/shadcnstyling/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  
+  base: '/shadcnstyling/',
 })
+
